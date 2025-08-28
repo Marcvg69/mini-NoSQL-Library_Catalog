@@ -1,0 +1,15 @@
+# Core
+pymongo[srv]>=4.9,<5
+python-dotenv==1.0.1
+pandas>=2.2.3,<2.4
+jupyter==1.1.1
+ipykernel==6.29.5
+rich==13.7.1
+tqdm==4.66.4
+typer==0.12.3
+
+# dev / qa
+black==24.8.0
+flake8==7.1.1
+pytest==8.3.2
+mongomock==4.1.2
