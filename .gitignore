@@ -4,6 +4,7 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 data/*.json
+data/
 !data/sample_books.json
 
 
