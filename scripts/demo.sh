@@ -1,6 +1,4 @@
-#!/usr/bin/env bash
-# Demo script: JSON first, then OL dumps (.gz), with press-Enter-to-run flow.
-# Robust pauses: read from /dev/tty so commands that touch stdin do not break the flow.
+# Demo script: JSON first, then OL dumps (.gz)
 
 set -Eeuo pipefail
 
@@ -28,7 +26,7 @@ say() { printf "%s\n" "$*"; }
 hr()  { printf "%s\n" "------------------------------------------------------------"; }
 print_cmd() { printf "%s$ %s%s\n" "$CYAN" "$(printf '%q ' "$@")" "$RESET"; }
 
-# Always read from the terminal (not stdin) so we do not exit on EOF.
+# Always read from the terminal...
 press_enter() { read -r -p "Press Enter to run..." </dev/tty; }
 press_next()  { read -r -p "Press Enter to continue..." </dev/tty; }
 
