@@ -1,9 +1,4 @@
 [
-  {"title":"The Hobbit","author_first_name":"J.R.R.","author_last_name":"Tolkien","country":"UK","published_date":"1937-09-21","out_of_print_date":null},
-  {"title":"The Little Prince","author_first_name":"Antoine","author_last_name":"de Saint-Exupéry","country":"France","published_date":"1943-04-06","out_of_print_date":null},
-  {"title":"Things Fall Apart","author_first_name":"Chinua","author_last_name":"Achebe","country":"Nigeria","published_date":"1958-06-17","out_of_print_date":null},
-  {"title":"One Hundred Years of Solitude","author_first_name":"Gabriel","author_last_name":"García Márquez","country":"Colombia","published_date":"1967-05-30","out_of_print_date":null},
-  {"title":"The Trial","author_first_name":"Franz","author_last_name":"Kafka","country":"Czechia","published_date":"1925-04-26","out_of_print_date":null},
-  {"title":"Untitled Draft","author_first_name":"Ada","author_last_name":"","country":"UK","published_date":"1815-12-10","out_of_print_date":"1852-11-27"},
-  {"title":"Placeholder","author_first_name":"Test","author_last_name":null,"country":"Nowhere","published_date":"2000-01-01","out_of_print_date":null}
+  {"title":"A Study in Scarlet","authors":["Arthur Conan Doyle"],"subjects":["Detective"]},
+  {"title":"Harry Potter and the Philosopher's Stone","authors":["J. K. Rowling"],"subjects":["Fantasy"]}
 ]
